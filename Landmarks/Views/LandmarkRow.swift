@@ -5,7 +5,7 @@
 //  Created by 岩本康孝 on 2022/03/12.
 //
 
-import SwiftUI  
+import SwiftUI
 
 struct LandmarkRow: View {
     var landmark: Landmark
@@ -24,6 +24,12 @@ struct LandmarkRow: View {
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRow(landmark: landmarks[0])
+        Group {
+            LandmarkRow(landmark: landmarks[0])
+                .previewLayout(.fixed(width: 300, height: 70))
+            LandmarkRow(landmark: landmarks[1])
+                .previewLayout(.fixed(width: 300, height: 70))
+        }
+        .previewLayout(.fixed(width: 300, height: 70))
     }
 }
