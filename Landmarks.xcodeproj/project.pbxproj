@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60A6ED527FCB72900021B0D /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A6ED427FCB72900021B0D /* CategoryHome.swift */; };
 		C64643BF27F9EF4E00CF6495 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64643BE27F9EF4E00CF6495 /* Badge.swift */; };
 		C64643C227F9F15200CF6495 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = C64643C127F9F15200CF6495 /* hikeData.json */; };
 		C64643C427F9F16400CF6495 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64643C327F9F16400CF6495 /* Hike.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60A6ED427FCB72900021B0D /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		C64643BE27F9EF4E00CF6495 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		C64643C127F9F15200CF6495 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		C64643C327F9F16400CF6495 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C60A6ED327FCB71700021B0D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C60A6ED427FCB72900021B0D /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		C64643C027F9F04800CF6495 /* Badges */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +165,7 @@
 		C6EEDB5027DC74BE00B5D721 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C60A6ED327FCB71700021B0D /* Categories */,
 				C6EEDB3A27DC6E2100B5D721 /* ContentView.swift */,
 				C6C8AA4E27DF43B300E27FA3 /* Landmarks */,
 				C64643C027F9F04800CF6495 /* Badges */,
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EEDB3B27DC6E2100B5D721 /* ContentView.swift in Sources */,
+				C60A6ED527FCB72900021B0D /* CategoryHome.swift in Sources */,
 				C64643CB27F9F1CA00CF6495 /* HikeGraph.swift in Sources */,
 				C64643BF27F9EF4E00CF6495 /* Badge.swift in Sources */,
 				C6EEDB4927DC722400B5D721 /* MapView.swift in Sources */,
